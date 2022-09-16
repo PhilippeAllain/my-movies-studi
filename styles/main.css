@@ -3,8 +3,7 @@
 body {
     margin: 0;
     background-color: beige;
-    font-family: 'Poppins',
-    sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
 }
 
@@ -16,7 +15,7 @@ h1 {
     width: 50vw;
 }
 
-.btn {
+.bouton {
     background-color: rgb(36, 128, 221);
     color: white;
     border-radius: 15px;
@@ -25,6 +24,11 @@ h1 {
     box-shadow: 2px 3px 5px lightgrey ;
 }
 
-.btn:hover {
-    background-color: blue;
+.bouton:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.bi-film {
+    font-size: 30px;
 }
